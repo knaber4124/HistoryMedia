@@ -9,3 +9,9 @@
 .dropdown-toggle{
     font-size: 20px;
 }
+.dropdown-menu {
+    background-color: rgb(180, 157, 25)
+}
+.dropdown-divider{
+    background-color:black;
+}

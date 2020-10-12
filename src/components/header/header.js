@@ -33,7 +33,7 @@ class Header extends Component {
                                 <div className="dropdown-divider"></div>
                                 {userAuth
                                     ? <a className="dropdown-item" href="#">Log Out</a>
-                                    : <a className="dropdown-item" href="#">Log In</a>
+                                    : <a className="dropdown-item" href="/login">Log In</a>
                                 }
 
                             </div>
