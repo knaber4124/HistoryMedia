@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 import './header.css'
 
 
@@ -28,12 +29,14 @@ class Header extends Component {
                                 Menu
   </button>
                             <div className="dropdown-menu">
-                                <a className="dropdown-item" href="#">Search</a>
-                                <a className="dropdown-item" href="#">Favorites</a>
+                                <Link className="dropdown-item" to="/">Home</Link>
+                                <Link className="dropdown-item" to="/search">Search</Link>
+                                <Link className="dropdown-item" to="/favorites">Favorites</Link>
+                                <Link className='dropdown-item' to='/add'>Add New</Link>
                                 <div className="dropdown-divider"></div>
                                 {userAuth
                                     ? <a className="dropdown-item" href="#">Log Out</a>
-                                    : <a className="dropdown-item" href="/login">Log In</a>
+                                    : <Link className="dropdown-item" to="/login">Log In</Link>
                                 }
 
                             </div>
