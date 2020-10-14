@@ -4,7 +4,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer'
 import Welcome from './components/Welcome/welcome'
 import Login from './components/Login/login'
-import SignUp from './components/Signup/Singup'
+import SignUp from './components/Signup/Signup'
 import Search from './components/Search/Search'
 import Favorites from './components/Favorites/Favorites'
 import Add from './components/Add/Add'

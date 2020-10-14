@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-export default class Favorites extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Favorites Page</h1>
-            </div>
-        )
-    }
+const Favorites = () => {
+    return (
+        <div>
+            <h1>Favorites Page</h1>
+        </div>
+    )
 }
+
+export default Favorites

@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 
-const Search = () => {
+const Signup = () => {
     return (
         <div>
-            <h1>Search Page</h1>
+            <h1>Sign Up Screen</h1>
         </div>
     )
 }
 
-export default Search
+export default Signup
+
+
