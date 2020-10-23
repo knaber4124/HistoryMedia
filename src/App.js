@@ -14,15 +14,20 @@ function App() {
   return (
     <div>
 
-
       <Router>
         <Header />
-        <Route exact path='/' component={Welcome} />
-        <Route exact path='/login' component={Login} />
-        <Route exact path='/signup' component={SignUp} />
-        <Route exact path='/search' component={Search} />
-        <Route exact path='/favorites' component={Favorites} />
-        <Route exact path='/add' component={Add} />
+        <div className='col-2'>
+        </div>
+        <div className='col-8 container'>
+          <Route exact path='/' component={Welcome} />
+          <Route exact path='/login' component={Login} />
+          <Route exact path='/signup' component={SignUp} />
+          <Route exact path='/search' component={Search} />
+          <Route exact path='/favorites' component={Favorites} />
+          <Route exact path='/add' component={Add} />
+        </div>
+        <div className='col-2'>
+        </div>
       </Router>
       <Footer />
     </div>

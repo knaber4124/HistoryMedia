@@ -17,16 +17,6 @@ const Add = () => {
             <h1>This Will Allow Users To Add New Entries</h1>
             <form>
                 <label>
-                    Title: <input type='text' name='title' />
-                </label>
-            </form>
-            <form>
-                <label>
-                    Author: <input type='text' name='author' />
-                </label>
-            </form>
-            <form>
-                <label>
                     Format:
                         <select>
                         <option value='Movie'>Movie</option>
@@ -34,35 +24,6 @@ const Add = () => {
                         <option value='Book'>Book</option>
                         <option value='TV'>TV</option>
                     </select>
-                </label>
-            </form>
-            <form>
-                <label>
-                    Topic 1:
-                        <select>
-                        <option value='database option'>Will come from Database</option>
-                    </select>
-                </label>
-            </form>
-            <form>
-                <label>
-                    Topic 2(Optional):
-                        <select>
-                        <option value='database option2'>Will come from Database</option>
-                    </select>
-                </label>
-            </form>
-            <form>
-                <label>
-                    Topic 3(Optional):
-                        <select>
-                        <option value='database option3'>Will come from Database</option>
-                    </select>
-                </label>
-            </form>
-            <form>
-                <label>
-                    Description: <input className='description-input' type='text' name='descr' />
                 </label>
             </form>
         </div>
